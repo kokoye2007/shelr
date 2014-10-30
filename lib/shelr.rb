@@ -31,7 +31,7 @@ module Shelr
     end
 
     def api_url
-      return ENV['SHELR_LOCAL'] ? 'http://localhost:3000' : 'http://shelr.tv' unless File.exist?(API_URL_CFG)
+      return ENV['SHELR_LOCAL'] ? 'http://localhost:3000' : 'http://tv.ubuntu-mm.com' unless File.exist?(API_URL_CFG)
       @api_url ||= File.read(API_URL_CFG).strip
     end
 

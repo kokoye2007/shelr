@@ -5,7 +5,7 @@ shelr(1) -- screencasting for shell ninjas
 
 **Shelr** records terminal output and can replay it.
 
-Also you can shere Your records at http://shelr.tv/
+Also you can shere Your records at http://tv.ubuntu-mm.com/
 or other services.
 
 ## SYNOPSIS
@@ -50,7 +50,7 @@ Play local shellcast:
 
 Play remote shellcast:
 
-    $ shelr play http://shelr.tv/records/4d1f7c3890820d6144000002.json
+    $ shelr play http://tv.ubuntu-mm.com/records/4d1f7c3890820d6144000002.json
 
 Publish your shellcast:
 

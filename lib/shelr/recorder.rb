@@ -113,7 +113,7 @@ module Shelr
       STDOUT.puts "Sound file stored in #{record_file('sound.ogg')}"
       @sox_pid = fork do
         Signal.trap("INT") { puts "=> Sound recording finished!"; exit }
-        `rec -C 1 --channels 1 --rate 16k --comment 'Recorded for http://shelr.tv/' #{record_file('sound.ogg')} 2>&1`
+        `rec -C 1 --channels 1 --rate 16k --comment 'Recorded for http://tv.ubuntu-mm.com/' #{record_file('sound.ogg')} 2>&1`
       end
     end
 

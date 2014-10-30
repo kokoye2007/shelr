@@ -41,7 +41,7 @@ HELP     = <<-HELP
       setup API_KEY [API_URL] - set your API key and API site
       backend [ttyrec|script] - setup recorder backend
 
-    Visit: http://shelr.tv/ for more info.
+    Visit: http://tv.ubuntu-mm.com/ for more info.
 
 HELP
 

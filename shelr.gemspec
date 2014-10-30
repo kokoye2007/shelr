@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = "self@antono.info"
   gem.description   = "Plain text screencast recorder"
   gem.summary       = "Screencasts for Shell Ninjas"
-  gem.homepage      = "http://shelr.tv/"
+  gem.homepage      = "http://tv.ubuntu-mm.com/"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.name          = "shelr"
