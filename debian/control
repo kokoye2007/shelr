@@ -1,0 +1,22 @@
+Source: shelr
+Section: ruby
+Priority: optional
+Maintainer: kokoye2007 <kokoye2007@ubuntu.com>
+Uploaders:
+Build-Depends: debhelper (>= 7.0.50~), bash-completion, gem2deb (>= 0.2.5), ruby-json | libjson-ruby, ruby-rspec | librspec-ruby, ruby-mocha | libmocha-ruby
+Standards-Version: 3.9.3
+Vcs-Git: https://github.com/kokoye2007/shelr
+Homepage: http://tv.ubuntu-mm.com/
+XS-Ruby-Versions: all
+
+Package: shelr
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-json | libjson-ruby, sox
+Suggests: ttyrec
+Description: Utility for plain text screencasting
+ Shelr allows one to record, replay and share your terminal session.
+ It works almost the same as script or ttyrec but adds some useful
+ features on top of them. Optionally you can share your recordings at
+ http://tv.ubuntu-mm.com/ or via email.
+
